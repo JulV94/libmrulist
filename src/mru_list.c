@@ -195,7 +195,7 @@ void* look(mruList_s* mruList, unsigned int index)
     {
         if (wantedNode->prev == NULL)
         {
-            fprintf(stderr, "List index provided to get function out of bounds\n");
+            fprintf(stderr, "List index provided to look function out of bounds\n");
             exit(EXIT_FAILURE);
         }
         else
